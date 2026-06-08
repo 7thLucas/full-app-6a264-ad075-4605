@@ -1,0 +1,65 @@
+<style>
+  .sl-layout { display: flex; flex-direction: column; height: 100%; }
+  .sl-problem { display: flex; flex-direction: column; justify-content: center; padding: 2.75rem 3rem; min-height: 50%; }
+  .sl-solution { display: flex; flex-direction: column; justify-content: center; padding: 2.75rem 3rem; min-height: 50%; }
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-landscape .sl-problem { width: 50%; height: 100%; min-height: 0; }
+  .mode-landscape .sl-solution { width: 50%; height: 100%; min-height: 0; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout">
+
+    <!-- Problem panel (dark) -->
+    <div class="sl-problem bg-slate-900">
+      <span class="text-teal-400 text-xs font-bold tracking-widest uppercase mb-5">The Problem</span>
+      <h2 class="text-white font-bold mb-6" style="font-size:1.7rem;line-height:1.25;">
+        Cleaning businesses run on sticky&nbsp;notes&nbsp;&amp;&nbsp;spreadsheets
+      </h2>
+      <ul class="space-y-4">
+        <li class="flex items-start gap-3">
+          <span class="text-red-400 font-bold text-lg flex-shrink-0" style="margin-top:1px;">✗</span>
+          <span class="text-slate-300 text-base">Client info scattered across texts, emails, and notebooks</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="text-red-400 font-bold text-lg flex-shrink-0" style="margin-top:1px;">✗</span>
+          <span class="text-slate-300 text-base">Double-bookings and no-shows from scheduling gaps</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="text-red-400 font-bold text-lg flex-shrink-0" style="margin-top:1px;">✗</span>
+          <span class="text-slate-300 text-base">Recurring revenue lost to missed follow-ups</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="text-red-400 font-bold text-lg flex-shrink-0" style="margin-top:1px;">✗</span>
+          <span class="text-slate-300 text-base">Hours wasted on manual invoicing and chasing payments</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Solution panel (light) -->
+    <div class="sl-solution bg-white">
+      <span class="text-teal-600 text-xs font-bold tracking-widest uppercase mb-5">The Solution</span>
+      <h2 class="text-slate-900 font-bold mb-6" style="font-size:1.7rem;line-height:1.25;">
+        One platform purpose-built for cleaning businesses
+      </h2>
+      <ul class="space-y-4">
+        <li class="flex items-start gap-3">
+          <span class="text-teal-500 font-bold text-lg flex-shrink-0" style="margin-top:1px;">✓</span>
+          <span class="text-slate-700 text-base">All client profiles, preferences, and history in one place</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="text-teal-500 font-bold text-lg flex-shrink-0" style="margin-top:1px;">✓</span>
+          <span class="text-slate-700 text-base">Smart scheduling with crew availability and conflict detection</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="text-teal-500 font-bold text-lg flex-shrink-0" style="margin-top:1px;">✓</span>
+          <span class="text-slate-700 text-base">Automated reminders and re-booking flows that retain clients</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="text-teal-500 font-bold text-lg flex-shrink-0" style="margin-top:1px;">✓</span>
+          <span class="text-slate-700 text-base">Auto-generated invoices and integrated online payments</span>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</section>
