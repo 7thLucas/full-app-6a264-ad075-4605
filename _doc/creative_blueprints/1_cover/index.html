@@ -1,0 +1,43 @@
+<style>
+  .sl-layout { display: flex; flex-direction: column; height: 100%; }
+  .sl-copy {
+    display: flex; flex-direction: column; justify-content: space-between;
+    padding: 2.75rem 3rem; background: #fff;
+  }
+  .sl-visual { position: relative; overflow: hidden; min-height: 42%; }
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-landscape .sl-copy { width: 55%; height: 100%; min-height: 0; padding: 3rem 3.5rem; }
+  .mode-landscape .sl-visual { width: 45%; height: 100%; min-height: 0; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout">
+
+    <!-- Left: copy -->
+    <div class="sl-copy">
+      <div>
+        <div class="flex items-center gap-2 mb-8">
+          <div class="w-8 h-1 rounded-full bg-teal-500"></div>
+          <span class="text-teal-600 text-xs font-bold tracking-widest uppercase">Residential Cleaning CRM</span>
+        </div>
+        <h1 class="font-black text-slate-900 mb-5" style="font-size:2.75rem;line-height:1.12;">
+          Run Your Cleaning<br/>Business<br/><span class="text-teal-600">Without the Chaos</span>
+        </h1>
+        <p class="text-slate-600 text-lg leading-relaxed" style="max-width:390px;">
+          The only CRM built for residential cleaning — clients, crews, and cash flow, all in one place.
+        </p>
+      </div>
+      <data-attribution />
+    </div>
+
+    <!-- Right: hero image -->
+    <div class="sl-visual">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=bright%20modern%20luxury%20living%20room%20freshly%20cleaned%20sparkling%20pristine%20professional%20residential%20interior%20warm%20sunlight%20minimalist%20white%20sofa"
+        alt="Pristine clean home interior"
+        class="w-full h-full object-cover"
+      />
+      <div class="absolute inset-0" style="background:linear-gradient(to right,rgba(255,255,255,0.06),rgba(13,148,136,0.05));"></div>
+    </div>
+
+  </div>
+</section>
