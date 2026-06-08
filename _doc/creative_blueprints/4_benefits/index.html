@@ -1,0 +1,61 @@
+<style>
+  .sl-layout { display: flex; flex-direction: column; height: 100%; padding: 2.5rem 3rem; gap: 1.375rem; }
+  .sl-metrics { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.875rem; }
+  .mode-landscape .sl-layout { padding: 2.75rem 3.5rem; }
+  .mode-landscape .sl-metrics { grid-template-columns: repeat(4, 1fr); }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout">
+
+    <!-- Header -->
+    <div>
+      <span class="text-teal-600 text-xs font-bold tracking-widest uppercase">Outcomes</span>
+      <h2 class="text-slate-900 font-bold mt-1" style="font-size:1.6rem;line-height:1.2;">Built to deliver measurable results</h2>
+    </div>
+
+    <!-- Metric cards -->
+    <div class="sl-metrics">
+
+      <div class="flex flex-col gap-1 p-5 rounded-xl bg-slate-900">
+        <span class="text-teal-400 text-xs font-bold tracking-wide uppercase">Admin Time</span>
+        <span class="text-white font-black" style="font-size:2.25rem;line-height:1.05;">2+ hrs</span>
+        <span class="text-slate-400 text-xs">saved per operator, per day</span>
+        <p class="text-slate-400 text-xs mt-1.5 leading-snug">Scheduling, reminders, and invoicing run themselves — no more manual admin.</p>
+      </div>
+
+      <div class="flex flex-col gap-1 p-5 rounded-xl bg-slate-900">
+        <span class="text-teal-400 text-xs font-bold tracking-wide uppercase">No-Shows</span>
+        <span class="text-white font-black" style="font-size:2.25rem;line-height:1.05;">40%</span>
+        <span class="text-slate-400 text-xs">fewer missed appointments</span>
+        <p class="text-slate-400 text-xs mt-1.5 leading-snug">Automated SMS/email reminders keep clients informed and on schedule.</p>
+      </div>
+
+      <div class="flex flex-col gap-1 p-5 rounded-xl bg-slate-900">
+        <span class="text-teal-400 text-xs font-bold tracking-wide uppercase">Payment Speed</span>
+        <span class="text-white font-black" style="font-size:2.25rem;line-height:1.05;">3×</span>
+        <span class="text-slate-400 text-xs">faster invoice collection</span>
+        <p class="text-slate-400 text-xs mt-1.5 leading-snug">Online payment links mean clients pay at booking or right after the job.</p>
+      </div>
+
+      <div class="flex flex-col gap-1 p-5 rounded-xl bg-slate-900">
+        <span class="text-teal-400 text-xs font-bold tracking-wide uppercase">Client Retention</span>
+        <span class="text-white font-black" style="font-size:2.25rem;line-height:1.05;">35%</span>
+        <span class="text-slate-400 text-xs">more repeat bookings</span>
+        <p class="text-slate-400 text-xs mt-1.5 leading-snug">Automated re-booking flows keep recurring clients from going quiet.</p>
+      </div>
+
+    </div>
+
+    <!-- ROI summary banner -->
+    <div class="flex items-center gap-5 p-5 rounded-xl bg-teal-600">
+      <div class="w-11 h-11 rounded-full bg-white flex-shrink-0 flex items-center justify-center text-xl">💡</div>
+      <div>
+        <p class="text-white font-bold text-base">ROI in the first week</p>
+        <p class="text-teal-100 text-sm leading-snug mt-0.5">
+          Most operators recover the full subscription cost within their first week — through time saved, faster payments, and fewer lost clients.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
