@@ -1,0 +1,70 @@
+<style>
+  .sl-layout { display: flex; flex-direction: column; height: 100%; padding: 2.5rem 3rem; gap: 1.25rem; }
+  .sl-grid { flex: 1; display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.875rem; }
+  .mode-landscape .sl-layout { padding: 2.75rem 3.5rem; gap: 1.375rem; }
+  .mode-landscape .sl-grid { grid-template-columns: repeat(3, 1fr); }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout">
+
+    <!-- Header -->
+    <div>
+      <span class="text-teal-600 text-xs font-bold tracking-widest uppercase">Core Features</span>
+      <h2 class="text-slate-900 font-bold mt-1" style="font-size:1.6rem;line-height:1.2;">Everything a cleaning business needs to run smoothly</h2>
+    </div>
+
+    <!-- Persona chips -->
+    <div class="flex flex-wrap gap-2">
+      <div class="inline-flex items-center px-4 py-1.5 rounded-full bg-teal-600">
+        <span class="text-white text-sm font-semibold">Business Owner</span>
+      </div>
+      <div class="inline-flex items-center px-4 py-1.5 rounded-full border border-slate-200">
+        <span class="text-slate-500 text-sm font-medium">Office Staff</span>
+      </div>
+      <div class="inline-flex items-center px-4 py-1.5 rounded-full border border-slate-200">
+        <span class="text-slate-500 text-sm font-medium">Cleaning Crew</span>
+      </div>
+    </div>
+
+    <!-- Feature cards -->
+    <div class="sl-grid">
+
+      <div class="flex flex-col gap-2 p-4 rounded-xl border border-slate-100 bg-slate-50">
+        <div class="w-8 h-8 rounded-lg bg-teal-100 flex items-center justify-center text-base">👤</div>
+        <h3 class="text-slate-900 font-semibold text-sm">Client Profiles</h3>
+        <p class="text-slate-600 text-xs leading-snug">Full contact info, service history, entry details, and preferences in one view.</p>
+      </div>
+
+      <div class="flex flex-col gap-2 p-4 rounded-xl border border-slate-100 bg-slate-50">
+        <div class="w-8 h-8 rounded-lg bg-teal-100 flex items-center justify-center text-base">📅</div>
+        <h3 class="text-slate-900 font-semibold text-sm">Smart Scheduling</h3>
+        <p class="text-slate-600 text-xs leading-snug">Drag-and-drop calendar for recurring and one-time jobs with conflict detection.</p>
+      </div>
+
+      <div class="flex flex-col gap-2 p-4 rounded-xl border border-slate-100 bg-slate-50">
+        <div class="w-8 h-8 rounded-lg bg-teal-100 flex items-center justify-center text-base">👥</div>
+        <h3 class="text-slate-900 font-semibold text-sm">Crew Dispatch</h3>
+        <p class="text-slate-600 text-xs leading-snug">Assign jobs to crews, track availability, and balance workloads at a glance.</p>
+      </div>
+
+      <div class="flex flex-col gap-2 p-4 rounded-xl border border-slate-100 bg-slate-50">
+        <div class="w-8 h-8 rounded-lg bg-teal-100 flex items-center justify-center text-base">💳</div>
+        <h3 class="text-slate-900 font-semibold text-sm">Invoicing & Payments</h3>
+        <p class="text-slate-600 text-xs leading-snug">Auto-generate invoices and collect online payments — no manual billing.</p>
+      </div>
+
+      <div class="flex flex-col gap-2 p-4 rounded-xl border border-slate-100 bg-slate-50">
+        <div class="w-8 h-8 rounded-lg bg-teal-100 flex items-center justify-center text-base">📣</div>
+        <h3 class="text-slate-900 font-semibold text-sm">Automated Reminders</h3>
+        <p class="text-slate-600 text-xs leading-snug">SMS/email confirmations and re-booking nudges sent to clients automatically.</p>
+      </div>
+
+      <div class="flex flex-col gap-2 p-4 rounded-xl border border-slate-100 bg-slate-50">
+        <div class="w-8 h-8 rounded-lg bg-teal-100 flex items-center justify-center text-base">📊</div>
+        <h3 class="text-slate-900 font-semibold text-sm">Analytics & Reports</h3>
+        <p class="text-slate-600 text-xs leading-snug">Track revenue, job completion rates, client retention, and crew performance.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
